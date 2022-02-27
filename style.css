@@ -1,0 +1,9 @@
+.card-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.color{
+    /* background-color:rgb(255, 87, 51) */
+    background-color:#2874A6;
+}
