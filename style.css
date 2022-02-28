@@ -7,3 +7,11 @@
     /* background-color:rgb(255, 87, 51) */
     background-color:#2874A6;
 }
+#spinner{
+    display: none;
+}
+/* .spinner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
