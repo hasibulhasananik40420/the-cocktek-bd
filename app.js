@@ -12,6 +12,7 @@ const cocktelDetails=()=>{
     const inputValue = inputField.value
      inputField.value=''
       if(inputValue===''){
+         spinner('none')
         main.innerHTML=''
         subMain.innerHTML=''
        error.innerText = 'Please search for text'
@@ -67,6 +68,7 @@ const cocktelDetails=()=>{
      spinner('none')
  }
   const detailId =(Drink)=>{
+     spinner('block')
     console.log(Drink)
     const url = `https://www.thecocktaildb.com/api/json/v1/1/lookup.php?i=${Drink}`
      fetch(url)
@@ -89,5 +91,5 @@ const cocktelDetails=()=>{
   </div>
     `
      subMain.appendChild(div)
-      // spinner('none')
+      spinner('none')
   } 
